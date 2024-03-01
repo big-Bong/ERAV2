@@ -24,12 +24,12 @@ For a detailed explanation of the above NN, and to look at the backpropagation c
 
 | LR      | Error Graph                              |
 | ------- | -----------                              |
-| `0.1`     | ![](/Session%206/screenshots/lr_0.1.png) |
-| `0.2`     | ![](/Session%206/screenshots/lr_0.2.png) |
-| `0.5`     | ![](/Session%206/screenshots/lr_0.5.png) |
-| `0.8`     | ![](/Session%206/screenshots/lr_0.8.png) |
-| `1`       | ![](/Session%206/screenshots/lr_1.png)   |
-| `2`       | ![](/Session%206/screenshots/lr_2.png)   |
+| `0.1`     | ![](/Session6/screenshots/lr_0.1.png) |
+| `0.2`     | ![](/Session6/screenshots/lr_0.2.png) |
+| `0.5`     | ![](/Session6/screenshots/lr_0.5.png) |
+| `0.8`     | ![](/Session6/screenshots/lr_0.8.png) |
+| `1`       | ![](/Session6/screenshots/lr_1.png)   |
+| `2`       | ![](/Session6/screenshots/lr_2.png)   |
 
 <br/>
 

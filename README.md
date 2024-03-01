@@ -34,7 +34,11 @@ For a detailed explanation of the above NN, and to look at the backpropagation c
 <br/>
 
 ### Part 2
-> [Google Colab Notebook](/Session6/VasudevChatterjee_ERAV2_Session6_Part2.ipynb)
+> [Google Colab Notebook](/Session6/VasudevChatterjee_ERAV2_Session6_Part2_latestrun.ipynb)
+
+The above notebook can be downloaded and then uploaded on google colab. The notebook is self-explanatory, and will run by executing each cell of the notebook at a time. The explanation for the code can also be found in the notebook.
+
+The Session6 folder contains two ipynb notebooks. Both are the exact same code, just two different runs. Both have achieved 99.4% accuracy, however the "latestrun" notebook achieves that in the 4th last epoch. The other ipynb achieves that consistently in the last few epochs.
 
 <br/>
 <br/>

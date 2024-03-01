@@ -1,7 +1,43 @@
 # ERAV2
 TSAI ERA V2 course
 
-Each folder corresponds to a different session. This will be the root folder for the entire course.
+Each folder corresponds to a different session. This will be the root folder for the entire course. The latest session's assignment details will be on top. Please scroll down for older sessions.
+
+## Session 6 (Advanced architectures)
+### Part 1
+
+> [Backpropagation Excel sheet](/Session6/VasudevChatterjee_ERAV2_Session6_Part1.xlsx?raw=true)
+
+<br/>
+
+#### **The Neural Network**
+![Neural Network Architecture](/Session6/screenshots/ERAV2_Session6_NeuralNet.jpg?raw=true)
+
+<br/>
+
+For a detailed explanation of the above NN, and to look at the backpropagation calculations, please refer to the [excel sheet](/Session6/VasudevChatterjee_ERAV2_Session6_Part1.xlsx?raw=true), tagged here and above.
+
+<br/>
+
+#### **Learning rate vs Error graph**
+<br/>
+
+| LR      | Error Graph                              |
+| ------- | -----------                              |
+| `0.1`     | ![](/Session%206/screenshots/lr_0.1.png) |
+| `0.2`     | ![](/Session%206/screenshots/lr_0.2.png) |
+| `0.5`     | ![](/Session%206/screenshots/lr_0.5.png) |
+| `0.8`     | ![](/Session%206/screenshots/lr_0.8.png) |
+| `1`       | ![](/Session%206/screenshots/lr_1.png)   |
+| `2`       | ![](/Session%206/screenshots/lr_2.png)   |
+
+<br/>
+
+### Part 2
+> [Google Colab Notebook](/Session6/VasudevChatterjee_ERAV2_Session6_Part2.ipynb)
+
+<br/>
+<br/>
 
 ## Session 5 (PyTorch)
 

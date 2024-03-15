@@ -1,5 +1,6 @@
 import torch
 from torchsummary import summary
+from torchvision import datasets
 from torchvision import transforms
 from tqdm import tqdm
 
@@ -83,3 +84,18 @@ def get_transforms(train=True):
     ])
 
   return transformation
+
+def get_datasets():
+  train_data = datasets.MNIST('../data', train=True, download=True, transform=get_transforms(train=True))
+  test_data = datasets.MNIST('../data', train=False, download=True, transform=get_transforms(train=False))
+
+  return (train_data,test_data)
+
+def get_data_loaders(batch_size):
+  kwargs = {'batch_size': batch_size, 'shuffle': True, 'num_workers': 2, 'pin_memory': True}
+  train_data, test_data = get_datasets()
+
+  test_loader = torch.utils.data.DataLoader(test_data, **kwargs)
+  train_loader = torch.utils.data.DataLoader(train_data, **kwargs)
+
+  return (train_loader, test_loader)

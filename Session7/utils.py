@@ -73,7 +73,8 @@ def get_transforms(train=True):
     transformation = transforms.Compose([
     transforms.RandomApply([transforms.CenterCrop(22), ], p=0.1),
     transforms.Resize((28, 28)),
-    transforms.RandomRotation((-15., 15.), fill=0),
+    transforms.RandomAffine(degrees=15, translate=(0.1,0.1), scale=(0.9, 1.1)),
+    transforms.ColorJitter(brightness=0.2, contrast=0.2),
     transforms.ToTensor(),
     transforms.Normalize((0.1307,), (0.3081,)),
     ])

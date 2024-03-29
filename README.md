@@ -3,6 +3,20 @@ TSAI ERA V2 course
 
 Each folder corresponds to a different session. This will be the root folder for the entire course. The latest session's assignment details will be on top. Please scroll down for older sessions.
 
+## Session 9 (Advanced Convolutions)
+
+Session 9 contains the following files:
+> 1. Vasu_ERAV2_Session9.ipynb: This is the main file from which the code will get executed. This is designed like a Jupyter/Google Colab notebook. The notebook logs will contain the model summary, train/test logs, and train/test accuracy graphs.
+> 2. model.py: This contains the actual neural network architecture. Our model follows C1C2C3C4O structure. Each convolution block contains 3 convolution layers followed by an AntMan convolution. The AntMan convolution also uses dilated kernels. C3 and C4 use depthwise separable convolutions as well.
+> 3. utils.py: Contains all utility functions related to training and testing the model. Getting the summary of the model, and transforming the data
+
+## Session 7 (In-Depth Coding)
+
+Session 7 contains the following files:
+> 1. VasudevChatterjee_ERAV2_Session7.ipynb: This is the main file from which the code will get executed. This is designed like a Jupyter/Google Colab notebook. All 3 model files are called in this, and the target, result and analysis are mentioned in the notebook.
+> 2. model_1.py, model_2.py, model_3.py: These contains the actual neural network architecture. Each model file corresponds to a separate model built in a progressive fashion.
+> 3. utils.py: Contains all utility functions related to training and testing the model. Getting the summary of the model, and transforming the data
+
 ## Session 6 (Advanced architectures)
 ### Part 1
 
